@@ -1,4 +1,9 @@
 ## web3-starter
+---
+
+### screenshot
+
+![](./screenshots/homepage.png)
 
 
 ### dependencies
@@ -6,8 +11,7 @@
 - truffle
 - ethers
 - @web3-react
-- tailwindcss
-
+- cra + tailwindcss
 
 ### Contracts
 

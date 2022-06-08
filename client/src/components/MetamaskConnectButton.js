@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useWeb3React, UnsupportedChainIdError } from '@web3-react/core'
 import { injected } from '../connectors'
-// import { shortenAddress } from '../utils/shortenAddress'
 import { useAppContext } from '../AppContext'
 
 const pageState = {
@@ -38,6 +37,7 @@ const MetamaskConnectButton = () => {
   if (status === pageState.READY && !active) {
     return (
       <button
+        className='border border-red-400 rounded-sm text-white px-2 ml-2'
         onClick={() => {
           if (!window.ethereum) {
             setContentError(
@@ -66,7 +66,7 @@ const MetamaskConnectButton = () => {
             account.substring(account.length - 4, account.length)}
       </span>
       <button
-        className='border border-red-400 rounded-sm text-white'
+        className='border border-red-400 rounded-sm text-white px-2 ml-2'
         onClick={() => onLogOut(deactivate, () => navigate('/'))}
       >
         Log Out
