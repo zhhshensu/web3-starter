@@ -27,3 +27,12 @@
 - `yarn install`
 - `yarn start`
 - Open `http://localhost:3000`
+
+
+### Refer
+- Scaffold https://github.com/scaffold-eth/scaffold-eth
+- 以太猫  https://www.cryptokitties.co/ 
+- solidity https://docs.soliditylang.org/en/latest/
+- Hardhat https://hardhat.org/tutorial/ 
+- ethers https://docs.ethers.io/v5/
+- Infura https://infura.io/ 
