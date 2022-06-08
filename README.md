@@ -1,4 +1,12 @@
-## Bootcamp
+## web3-starter
+
+
+### dependencies
+
+- truffle
+- ethers
+- @web3-react
+- tailwindcss
 
 
 ### Contracts
